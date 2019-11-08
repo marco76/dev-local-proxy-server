@@ -1,5 +1,6 @@
 # Local Server
 
+```
 ┌────────┐                                                                       
 │        │                                                                       
 │        │                                                                       
@@ -22,6 +23,7 @@
 │        │                                                                       
 │        │                                                                       
 └────────┘                                                                       
+```
 
 ## Goal
 This local server can be used to simulate _some_ REST answers without calling directly the remote server.
