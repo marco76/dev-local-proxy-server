@@ -1,5 +1,28 @@
 # Local Server
 
+┌────────┐                                                                       
+│        │                                                                       
+│        │                                                                       
+│   C    │                                                                       
+│   l    │  /customers ┌──────────────────┐              ┌──────────────────┐    
+│   i    ├────────────▶│   Local proxy    │─────────────▶│  customers.json  │    
+│   e    │◀────────────┤     server       │◀─────────────┤                  │    
+│   n    │             │                  │              └──────────────────┘    
+│   t    │ /products   │                  │ /products   ┌───────────────────────┐
+│        ├────────────▶│                  ├────────────▶│                       │
+│   /    │◀────────────┤                  │◀────────────┤ http://remote-server  │
+│        │             └──────────────────┘             │                       │
+│   B    │                                              └───────────────────────┘
+│   r    │                                                                       
+│   o    │                                                                       
+│   w    │                                                                       
+│   s    │                                                                       
+│   e    │                                                                       
+│   r    │                                                                       
+│        │                                                                       
+│        │                                                                       
+└────────┘                                                                       
+
 ## Goal
 This local server can be used to simulate _some_ REST answers without calling directly the remote server.
 
